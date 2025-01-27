@@ -27,5 +27,6 @@ int main() {
 	/*char symb{ 'a' };
 
 	while (symb++)
-		cout << (int)symb << endl;*/
+		cout << (int)symb << endl;
+		*/
 }
