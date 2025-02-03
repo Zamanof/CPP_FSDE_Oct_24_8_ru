@@ -90,7 +90,7 @@ int main() {
 #pragma endregion
 
 #pragma region Selection sort
-	int min_index{}, min{};
+	/*int min_index{}, min{};
 	for (size_t i = 0; i < length; i++)
 	{
 		min_index = i;
@@ -108,7 +108,7 @@ int main() {
 			arr[min_index] = arr[i];
 			arr[i] = min;
 		}
-	}
+	}*/
 #pragma endregion
 
 	for (int i = 0; i < length; i++)
