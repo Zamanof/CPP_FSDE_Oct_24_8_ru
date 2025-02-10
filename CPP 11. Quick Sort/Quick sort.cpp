@@ -29,7 +29,7 @@ int main() {
 	cout << duration.count() << " milliseconds" << endl;
 	cout << duration.count() / 1000.f << " seconds" << endl;
 	cout << '\n';
-	system("color 02");
+
 	ShowArray(arr, length);
 
 }
@@ -37,7 +37,7 @@ int main() {
 void FillArray(int arr[], int length) {
 	for (int i = 0; i < length; i++)
 	{
-		arr[i] = i;
+		arr[i] = rand();
 	}
 }
 void ShowArray(int arr[], int length) {
