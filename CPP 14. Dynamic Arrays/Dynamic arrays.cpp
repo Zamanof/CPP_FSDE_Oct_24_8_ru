@@ -48,8 +48,6 @@ int main() {
 	dynArr = addNewValue(dynArr, length, 98);
 	ShowArray(dynArr, length);*/
 
-	char word[] = "Salam";
-	cout << strchr(word, 'l') << endl;
 }
 
 void FillArray(int* arr, int length) {
