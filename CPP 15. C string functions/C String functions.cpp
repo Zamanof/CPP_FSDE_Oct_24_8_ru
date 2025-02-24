@@ -108,13 +108,4 @@ int main()
 	putchar(a);
 	_putch(a);*/
 #pragma endregion
-
-
-	
-
-
-
-
-
-
 }
