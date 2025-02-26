@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 #pragma region operators
 /*
-	unary operators (-, +, ++, --, *, *, &, &, !)
+	unary operators (-, +, ++, --, *, *, &, &, !, ~)
 	binary operators(-, +, *, /, %, +=, -=, /=, *=, %=
 					 =, >, <, <=, >=, !=, ==,
 					 &&, ||, &, |, ^, <<, >>, ->, .)
