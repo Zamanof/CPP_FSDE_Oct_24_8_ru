@@ -117,33 +117,43 @@ int main() {
 
 
 	// prostaya shfrovka teksta
-	char password[20];
-	cout << "Enter password:" << endl;
-	gets_s(password, 20);
-	cout << "Normal password -> " << password << endl;
-	int key{};
-	cout << "Enter secret key:" << endl;
-	cin >> key;
-	// encode
-	for (int i = 0; i < strlen(password); i++)
-	{
-		password[i] ^= key;
-	}
-	cout << "Cipher password -> " << password << endl;
-	cout << "Enter secret key:" << endl;
-	cin >> key;
+	//char password[20];
+	//cout << "Enter password:" << endl;
+	//gets_s(password, 20);
+	//cout << "Normal password -> " << password << endl;
+	//int key{};
+	//cout << "Enter secret key:" << endl;
+	//cin >> key;
+	//// encode
+	//for (int i = 0; i < strlen(password); i++)
+	//{
+	//	password[i] ^= key;
+	//}
+	//cout << "Cipher password -> " << password << endl;
+	//cout << "Enter secret key:" << endl;
+	//cin >> key;
 
-	// decode
-	for (int i = 0; i < strlen(password); i++)
-	{
-		password[i] ^= key;
-	}
-	cout << "Normal password -> " << password << endl;
-
+	//// decode
+	//for (int i = 0; i < strlen(password); i++)
+	//{
+	//	password[i] ^= key;
+	//}
+	//cout << "Normal password -> " << password << endl;
 
 #pragma endregion
 
+#pragma region bitwise shift <<, >>
+	// smesheniye bitov
+	//int numb{ 15 };
+	//cout << numb << endl;
+	//// numb << n =  numb * 2^n
+	//numb <<= 3; // numb = numb << 3;
+	//cout << numb << endl;
+	//// numb >> n =  numb / 2^n
+	//numb >>= 5; // numb = numb >> 2;
+	//cout << numb << endl;
 
-
-
+	//numb <<= 5;
+	//cout << numb << endl;
+#pragma endregion
 }
