@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3c9b1e0c-4c4b-4e8a-be89-907111a81259}</ProjectGuid>
-    <RootNamespace>CPP19Preprocessor</RootNamespace>
+    <ProjectGuid>{a81faaa3-29e6-4213-bd6c-d77c88e4a420}</ProjectGuid>
+    <RootNamespace>CPP20owninstanceinstruct</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Preprocessor.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ioarray.h" />
-    <ClInclude Include="macros.h" />
-    <ClInclude Include="MyLanguage.h" />
+    <ClCompile Include="own instance in struct.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3c9b1e0c-4c4b-4e8a-be89-907111a81259}</ProjectGuid>
-    <RootNamespace>CPP19Preprocessor</RootNamespace>
+    <ProjectGuid>{84deaffa-4936-4239-9e1b-59934b77462c}</ProjectGuid>
+    <RootNamespace>CPP20Pointertofunc</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Preprocessor.cpp" />
+    <ClCompile Include="pointer to func.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ioarray.h" />
-    <ClInclude Include="macros.h" />
-    <ClInclude Include="MyLanguage.h" />
+    <ClInclude Include="calcFunctions.h" />
+    <ClInclude Include="otherFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
