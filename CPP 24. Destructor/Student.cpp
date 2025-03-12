@@ -1,5 +1,4 @@
 #include "Student.h"
-
 void Student::show() {
 	cout << "FirstName:  " << _firstName << endl;
 	cout << "LastName:   " << _lastName << endl;

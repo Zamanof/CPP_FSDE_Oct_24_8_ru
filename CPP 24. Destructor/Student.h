@@ -16,7 +16,7 @@ public:
 		strcpy_s(_firstName, 50, "Empty");
 		strcpy_s(_lastName, 50, "Empty");
 		_age = 0;
-		cout << "Student is constructed with default constructor - Student()" << endl;
+		cout << "Student "<<_firstName<< " is constructed with default constructor - Student()" << endl;
 	}
 
 	// parameterized constructor
@@ -24,7 +24,7 @@ public:
 		setFirstName(name);
 		setLastName(surname);
 		setAge(age);
-		cout << "23. Student is constructed with parametrized constructor - Student(const char* name, const char* surname, int age)" << endl;
+		cout << "Student " << _firstName << " is constructed with parametrized constructor - Student(const char* name, const char* surname, int age)" << endl;
 	}
 
 	// parameterized constructor
@@ -32,11 +32,11 @@ public:
 		setFirstName(name);
 		setLastName(surname);
 		setAge(18);
-		cout << "31. Student is constructed with parametrized constructor - Student(const char* name, const char* surname)" << endl;
+		cout << "Student " << _firstName << " is constructed with parametrized constructor - Student(const char* name, const char* surname)" << endl;
 	}
 
 	void show();
-	
+
 
 
 	void setFirstName(const char*);
@@ -49,6 +49,11 @@ public:
 
 	void setAge(int);
 	int getAge();
-
+	
+	// Destructor eto metod kotoriy vizivayetsya pri smerti obyekta
+	~Student()
+	{
+		cout << "Student " << _firstName << " is destructed" << endl;
+	}
 };
 

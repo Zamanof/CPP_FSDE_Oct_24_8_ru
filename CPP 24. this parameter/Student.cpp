@@ -1,9 +1,8 @@
 #include "Student.h"
-
 void Student::show() {
-	cout << "FirstName:  " << _firstName << endl;
-	cout << "LastName:   " << _lastName << endl;
-	cout << "Age:        " << _age << endl;
+	cout << "FirstName:  " << this->firstName << endl;
+	cout << "LastName:   " << this->lastName << endl;
+	cout << "Age:        " << this->age << endl;
 }
 
 
@@ -14,12 +13,12 @@ void  Student::setFirstName(const char* firstName) {
 
 	}
 	else {
-		strcpy_s(_firstName, 50, firstName);
+		strcpy_s(this->firstName, 50, firstName);
 	}
 }
 
 char* Student::getFirstName() {
-	return _firstName;
+	return firstName;
 }
 
 
@@ -29,12 +28,12 @@ void  Student::setLastName(const char* lastName) {
 
 	}
 	else {
-		strcpy_s(_lastName, 50, lastName);
+		strcpy_s(this->lastName, 50, lastName);
 	}
 }
 
 char* Student::getLastName() {
-	return _lastName;
+	return this->lastName;
 }
 
 
@@ -43,10 +42,10 @@ void Student::setAge(int age) {
 		cout << "incorrect value for age\n\n" << endl;
 	}
 	else {
-		_age = age;
+		this->age = age;
 	}
 }
 
 int Student::getAge() {
-	return _age;
+	return this->age;
 }
