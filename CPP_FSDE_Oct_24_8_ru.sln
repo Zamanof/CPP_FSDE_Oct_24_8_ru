@@ -177,6 +177,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 25. Initialization", "C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 25. Static fields, static methos", "CPP 25. Static fields, static methos\CPP 25. Static fields, static methos.vcxproj", "{D25A59FC-5E60-4B21-BC52-0B1D631CABFF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 26. Dynamic Array without copy constructor", "CPP 26. Dynamic Array without copy constructor\CPP 26. Dynamic Array without copy constructor.vcxproj", "{51190B9E-5EA0-4451-8FFB-9E4889BC1230}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPP 26", "CPP 26", "{5957C2D8-840A-4250-B13B-EB1C6804B8D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 26. Dynamic Array with copy constructor", "CPP 26. Dynamic Array with copy constructor\CPP 26. Dynamic Array with copy constructor.vcxproj", "{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 26. Without Operator Overloading", "CPP 26. Without Operator Overloading\CPP 26. Without Operator Overloading.vcxproj", "{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -681,6 +689,30 @@ Global
 		{D25A59FC-5E60-4B21-BC52-0B1D631CABFF}.Release|x64.Build.0 = Release|x64
 		{D25A59FC-5E60-4B21-BC52-0B1D631CABFF}.Release|x86.ActiveCfg = Release|Win32
 		{D25A59FC-5E60-4B21-BC52-0B1D631CABFF}.Release|x86.Build.0 = Release|Win32
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230}.Debug|x64.ActiveCfg = Debug|x64
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230}.Debug|x64.Build.0 = Debug|x64
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230}.Debug|x86.ActiveCfg = Debug|Win32
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230}.Debug|x86.Build.0 = Debug|Win32
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230}.Release|x64.ActiveCfg = Release|x64
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230}.Release|x64.Build.0 = Release|x64
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230}.Release|x86.ActiveCfg = Release|Win32
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230}.Release|x86.Build.0 = Release|Win32
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}.Debug|x64.ActiveCfg = Debug|x64
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}.Debug|x64.Build.0 = Debug|x64
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}.Debug|x86.Build.0 = Debug|Win32
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}.Release|x64.ActiveCfg = Release|x64
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}.Release|x64.Build.0 = Release|x64
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}.Release|x86.ActiveCfg = Release|Win32
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517}.Release|x86.Build.0 = Release|Win32
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}.Debug|x64.ActiveCfg = Debug|x64
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}.Debug|x64.Build.0 = Debug|x64
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}.Debug|x86.Build.0 = Debug|Win32
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}.Release|x64.ActiveCfg = Release|x64
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}.Release|x64.Build.0 = Release|x64
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}.Release|x86.ActiveCfg = Release|Win32
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -748,6 +780,9 @@ Global
 		{DCB34AF0-5E1C-442B-BEAE-7DCAB363C776} = {4132E898-88B4-47CA-A4F5-79241606116C}
 		{FC0DA61E-CE68-49F7-98B3-02D6273AB735} = {4132E898-88B4-47CA-A4F5-79241606116C}
 		{D25A59FC-5E60-4B21-BC52-0B1D631CABFF} = {4132E898-88B4-47CA-A4F5-79241606116C}
+		{51190B9E-5EA0-4451-8FFB-9E4889BC1230} = {5957C2D8-840A-4250-B13B-EB1C6804B8D0}
+		{CAD3F84F-8CE5-4ED1-B00A-5612CF91C517} = {5957C2D8-840A-4250-B13B-EB1C6804B8D0}
+		{9C5CD2F8-33E3-45BF-B0EA-D6317941CFEF} = {5957C2D8-840A-4250-B13B-EB1C6804B8D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C83731BA-1AAE-4CC3-8B7B-981F9DC21F24}
