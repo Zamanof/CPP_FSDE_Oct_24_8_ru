@@ -193,6 +193,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 28. explicit constructo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 28. DynamicArray operator overloading", "CPP 28. DynamicArray operator overloading\CPP 28. DynamicArray operator overloading.vcxproj", "{1C8B63AB-016C-42F5-8DE4-32DF1BB5DCB0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 27. Point with operator overloading", "..\..\source\repos\Zamanof\CPP_FSDE_Oct_24_8_ru\CPP 27. Point with operator overloading\CPP 27. Point with operator overloading.vcxproj", "{678F66F8-639B-4387-B4A4-C6EADE03B192}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPP 27", "CPP 27", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -745,6 +749,14 @@ Global
 		{1C8B63AB-016C-42F5-8DE4-32DF1BB5DCB0}.Release|x64.Build.0 = Release|x64
 		{1C8B63AB-016C-42F5-8DE4-32DF1BB5DCB0}.Release|x86.ActiveCfg = Release|Win32
 		{1C8B63AB-016C-42F5-8DE4-32DF1BB5DCB0}.Release|x86.Build.0 = Release|Win32
+		{678F66F8-639B-4387-B4A4-C6EADE03B192}.Debug|x64.ActiveCfg = Debug|x64
+		{678F66F8-639B-4387-B4A4-C6EADE03B192}.Debug|x64.Build.0 = Debug|x64
+		{678F66F8-639B-4387-B4A4-C6EADE03B192}.Debug|x86.ActiveCfg = Debug|Win32
+		{678F66F8-639B-4387-B4A4-C6EADE03B192}.Debug|x86.Build.0 = Debug|Win32
+		{678F66F8-639B-4387-B4A4-C6EADE03B192}.Release|x64.ActiveCfg = Release|x64
+		{678F66F8-639B-4387-B4A4-C6EADE03B192}.Release|x64.Build.0 = Release|x64
+		{678F66F8-639B-4387-B4A4-C6EADE03B192}.Release|x86.ActiveCfg = Release|Win32
+		{678F66F8-639B-4387-B4A4-C6EADE03B192}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -818,6 +830,7 @@ Global
 		{62D8B4C1-93AC-40B7-B4A0-13E305C11DD8} = {D807BA42-1D3B-4B7E-87FB-55D3BF89C1D0}
 		{34095563-F2D6-4824-AB12-EC946E193AA5} = {D807BA42-1D3B-4B7E-87FB-55D3BF89C1D0}
 		{1C8B63AB-016C-42F5-8DE4-32DF1BB5DCB0} = {D807BA42-1D3B-4B7E-87FB-55D3BF89C1D0}
+		{678F66F8-639B-4387-B4A4-C6EADE03B192} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C83731BA-1AAE-4CC3-8B7B-981F9DC21F24}
