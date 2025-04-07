@@ -218,9 +218,9 @@ int main() {
 	selectionSorting(arr, length, max);
 	showArray(arr, length);*/
 
-	showFilteredArray(arr, length, isOdd);
+	/*showFilteredArray(arr, length, isOdd);
 	showFilteredArray(arr, length, isEven);
-	showFilteredArray(arr, length, isNegative);
+	showFilteredArray(arr, length, isNegative);*/
 
 	
 }
