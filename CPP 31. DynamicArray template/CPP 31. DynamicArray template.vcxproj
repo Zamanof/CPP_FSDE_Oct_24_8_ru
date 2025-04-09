@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c00f7c80-d486-4cbc-8ac7-9940f47136e3}</ProjectGuid>
-    <RootNamespace>CPP30Classtemplate</RootNamespace>
+    <ProjectGuid>{ba0ffeb3-cfa4-4b2e-9145-5ddb5907765d}</ProjectGuid>
+    <RootNamespace>CPP31DynamicArraytemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Template class.cpp" />
+    <ClCompile Include="DynamicArray template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

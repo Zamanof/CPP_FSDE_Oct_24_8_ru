@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Template class.cpp">
+    <ClCompile Include="DynamicArray template.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

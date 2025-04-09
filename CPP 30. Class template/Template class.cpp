@@ -10,10 +10,35 @@ private:
 public:
 	Test(T1 a) : field1{a}{}
 	void showInfo() {
-		cout << "field1 type = " << typeid(field1).name << endl;
-		cout << "field2 type = " << typeid(field2).name << endl;
+		cout << "Class template" << endl;
+		cout << "field1 type = " << typeid(field1).name() << endl;
+		cout << "field2 type = " << typeid(field2).name() << endl;
 	}
 
+	T1 maxValue(T1 otherValue) {
+		if (field1 > otherValue) return field1;
+		return otherValue;
+	}
+	
+};
+
+template<>
+class Test<const char*, float> {
+private:
+	const char* field1;
+	float field2;
+public:
+	Test(const char* field1) : field1{ field1 } {}
+	void showInfo() {
+		cout << "Spesialization class template" << endl;
+		cout << "field1 type = " << typeid(field1).name() << endl;
+		cout << "field2 type = " << typeid(field2).name() << endl;
+	}
+
+	const char* maxValue(const char* otherValue) {
+		if (strcmp(field1, otherValue) == 1) return field1;
+		return otherValue;
+	}
 };
 
 //int add(int left, int right);
@@ -35,9 +60,25 @@ int main() {
 	 
 	
 	*/
+
 	/*add<int, float, float>(2, 5.6f);
 	add<float, int, double>(2.5f, 5);
 	add<int, int, int>(25, 65);*/
+
+	/*Test<char, int> test1('e');
+	test1.showInfo();
+	cout << test1.maxValue('f') << endl;
+	cout << test1.maxValue('a') << endl;
+
+	Test<double, float> test2(2.3);
+	test2.showInfo();
+	cout << test2.maxValue(1.6) << endl;
+	cout << test2.maxValue(6.39) << endl;*/
+	
+	Test<const char*, float>  test3("Adnan");
+	test3.showInfo();
+	cout << test3.maxValue("Balaxan") << endl;
+	cout << test3.maxValue("Abdullah") << endl;
 }
 
 //int add(int left, int right) {
