@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 
 using namespace std;
 // abstract class
@@ -10,6 +11,13 @@ public:
 	// chisto virtualniy metod
 	// pure virtual method
 	virtual void Sound() = 0;
+	virtual ~Animal() = 0;
+};
+Animal::~Animal(){}
+
+class AbstarctSomeClass{
+public:
+	virtual ~AbstarctSomeClass() = 0;
 };
 
 class Mammal : public Animal {};
@@ -68,4 +76,11 @@ int main() {
 	CheshireCat cat;
 	cat.name = "Alisa";
 	infoAnimal(cat);
+
+	vector<Animal*> animals;
+	animals.push_back(&syph);
+	animals.push_back(&cat);
+	animals.push_back(new Dog());
+	
+	/*AbstarctSomeClass a;*/
 }

@@ -243,6 +243,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 36. Pointer to function
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 36. Abstract classes", "CPP 36. Abstract classes\CPP 36. Abstract classes.vcxproj", "{BC8BE43D-9273-4A57-B3B5-2DD9842E6AF8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 36. Abstract class like intreface", "CPP 36. Abstract class like intreface\CPP 36. Abstract class like intreface.vcxproj", "{032AE7B2-98C2-44DD-A0F4-F378232DB412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -931,6 +933,14 @@ Global
 		{BC8BE43D-9273-4A57-B3B5-2DD9842E6AF8}.Release|x64.Build.0 = Release|x64
 		{BC8BE43D-9273-4A57-B3B5-2DD9842E6AF8}.Release|x86.ActiveCfg = Release|Win32
 		{BC8BE43D-9273-4A57-B3B5-2DD9842E6AF8}.Release|x86.Build.0 = Release|Win32
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412}.Debug|x64.ActiveCfg = Debug|x64
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412}.Debug|x64.Build.0 = Debug|x64
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412}.Debug|x86.ActiveCfg = Debug|Win32
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412}.Debug|x86.Build.0 = Debug|Win32
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412}.Release|x64.ActiveCfg = Release|x64
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412}.Release|x64.Build.0 = Release|x64
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412}.Release|x86.ActiveCfg = Release|Win32
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1021,6 +1031,7 @@ Global
 		{640DB540-E203-4410-B925-0ABE3ED1D38F} = {909EA35A-4C9C-4451-BE1F-D4EA08050DBD}
 		{2187F413-5300-462F-8EAD-EEE130BDCE65} = {4714B9A6-810D-4AE3-9529-3910784D2A52}
 		{BC8BE43D-9273-4A57-B3B5-2DD9842E6AF8} = {4714B9A6-810D-4AE3-9529-3910784D2A52}
+		{032AE7B2-98C2-44DD-A0F4-F378232DB412} = {4714B9A6-810D-4AE3-9529-3910784D2A52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C83731BA-1AAE-4CC3-8B7B-981F9DC21F24}
