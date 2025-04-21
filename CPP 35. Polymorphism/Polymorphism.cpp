@@ -112,8 +112,8 @@ int main() {
 	infoCat(cheshire);*/
 
 	info(cat);
-	/*info(dog);
-	info(cheshire);*/
+	info(dog);
+	info(cheshire);
 
 	/*Animal** animals = new Animal * [7] {
 			&cat,
