@@ -140,3 +140,5 @@ int main() {
 	/*someFunctionRef(cheshire);*/
 
 }
+
+// Smart pointers
