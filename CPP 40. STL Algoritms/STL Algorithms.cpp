@@ -49,9 +49,26 @@ bool isNegative(int value);
 bool isEven(int value);
 bool isOdd(int value);
 bool ageCompare(const Cat& left, const Cat& right);
+bool lifeCompare(const Cat& left, const Cat& right);
+void make_negative(int& value);
+void pow_2(int& value);
+
+void cat_show(const Cat& cat);
 
 int main() {
 	// STL Algorithms
+
+	vector<Cat> cats{
+		Cat("Tom", 5, 3),
+		Cat("Jerry", 3, 9),
+		Cat("Mickey", 2, 0),
+		Cat("Minnie", 1, 1),
+		Cat("Donald", 4, 2),
+		Cat("Daisy", 6, 4),
+		Cat("Pluto", 7, 5),
+		Cat("Goofy", 8, 6),
+		Cat("Chip", 9, 7)
+	};
 
 	vector<int> numbers{ 35, -8, 321, 7, 17, 1, 369, 1, 338, 22, -18, -5 };
 	auto start = numbers.begin();
@@ -118,18 +135,10 @@ int main() {
 	/*cout << *(max_element(start, end)) << endl;
 	cout << *(min_element(start, end)) << endl;*/
 #pragma endregion
-	vector<Cat> cats{
-		Cat("Tom", 5, 3),
-		Cat("Jerry", 3, 9),
-		Cat("Mickey", 2, 0),
-		Cat("Minnie", 1, 1),
-		Cat("Donald", 4, 2),
-		Cat("Daisy", 6, 4),
-		Cat("Pluto", 7, 5),
-		Cat("Goofy", 8, 6),
-		Cat("Chip", 9, 7)
-	};
-	/*auto max_cat = max_element(cats.begin(), cats.end());
+	
+
+#pragma region Algorithms with own class
+/*auto max_cat = max_element(cats.begin(), cats.end());
 	max_cat->show();
 
 	auto min_cat = min_element(cats.begin(), cats.end());
@@ -140,6 +149,37 @@ int main() {
 
 	auto min_age_cat = min_element(cats.begin(), cats.end(), ageCompare);
 	min_age_cat->show();*/
+
+	/*auto max_age_cat = max_element(cats.begin(), cats.end(), lifeCompare);
+	max_age_cat->show();
+
+	auto min_age_cat = min_element(cats.begin(), cats.end(), lifeCompare);
+	min_age_cat->show();*/
+
+	/*Cat cat("Mickey", 2, 0);
+	find(cats.begin(), cats.end(), cat)->show();*/
+
+	/*sort(cats.begin(), cats.end());
+
+	for (auto cat : cats) {
+		cat.show();
+	}*/
+#pragma endregion
+
+#pragma region for_each()
+	// for_each(numbers.begin(), numbers.end(), make_negative);
+	/*for_each(numbers.begin(), numbers.end(), pow_2);
+	show(numbers);*/
+
+	for (auto cat : cats) {
+		cat.show();
+	}
+
+	for_each(cats.begin(), cats.end(), cat_show);
+
+#pragma endregion
+
+
 }
 template<class T>
 void show(vector<T> vec) {
@@ -163,3 +203,18 @@ bool isNegative(int value) { return value < 0; }
 bool isEven(int value) { return value % 2 == 0; }
 bool isOdd(int value) { return value % 2 != 0; }
 bool ageCompare(const Cat& left, const Cat& right) { return left.age < right.age; }
+bool lifeCompare(const Cat& left, const Cat& right) { return left.life < right.life; }
+
+void make_negative(int& value) {
+	if (!isNegative(value)) value =  -value;
+	
+}
+
+void pow_2(int& value) {
+	value*=value;
+
+}
+
+void cat_show(const Cat& cat) {
+	cat.show();
+}
